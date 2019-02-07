@@ -1,5 +1,5 @@
 .background{
-    background-image: url('https://wallpapercave.com/wp/EXhKahS.png');
+   background-image: url('https://wallpapercave.com/wp/EXhKahS.png'); 
     height: 730px;
     width: 1700px;
     margin:0;
@@ -12,4 +12,34 @@
 body{
     margin:0px;
     overflow:hidden;
+}
+
+.enemy{
+    position: relative;
+  top: 3%;
+  left:35%;
+  height: 380px;
+  width:400px;
+  background:url("Attacking_004.png");
+  background-repeat: no-repeat;
+}
+
+.terminal{
+    position: relative;
+    height:300px;
+    width:600px;
+    left:30%;
+    top:-7%;
+    background:black;
+}
+/*.hero{
+    position: relative;
+    top: -12%;
+    left:50%;
+    height: 380px;
+    width:400px;
+    background:url("Attacking_008.png");
+    background-repeat: no-repeat;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
